@@ -10,7 +10,7 @@ import scala.concurrent.duration._
 import io.gatling.core.Predef.bootstrap._
 import io.gatling.core.Predef.assertions._
 
-class Check_API_Simulation extends Simulation {
+class Case1_Simulation extends Simulation {
 
   val httpConf = httpConfig
     .baseURL("http://search.twitter.com")
